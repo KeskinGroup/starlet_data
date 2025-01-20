@@ -1,0 +1,26 @@
+SimulationType                 MonteCarlo
+NumberOfCycles                 50000
+NumberOfInitializationCycles   50000
+RemoveAtomNumberCodeFromLabel  yes
+
+CutOff                         12
+Movies yes
+WriteMoviesEvery 5000
+
+Framework                      0
+FrameworkName hMOF-24873-(id_39895) 
+UnitCells 1 1 1 
+ExternalTemperature            298.0
+ExternalPressure               100000.0
+UseChargesFromCIFFile          yes
+
+Component 0 MoleculeName      		   CO
+            FugacityCoefficient		   1.0
+            TranslationProbability         0.5
+            RotationProbability            0.5
+            ReinsertionProbability         0.5
+            SwapProbability                1.0
+            CreateNumberOfMolecules        0
+
+
+
