@@ -1,0 +1,8 @@
+TPOT Parameters;
+Generation ;10
+Population size ;25
+cv ;5
+verbosity ;2
+Random Number ;42
+Training set;80%
+Test set ;20%
