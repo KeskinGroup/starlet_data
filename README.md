@@ -31,7 +31,7 @@ The repository is organized as follows:
 
 ## Citation
 
-If you use the data presented in this repository in your research, please cite any specific papers or datasets referenced in this repository.
+If you use the data and/or machine learning models presented in this repository in your research, please cite any specific papers or datasets referenced in this repository.
 
 ## Contact
 
