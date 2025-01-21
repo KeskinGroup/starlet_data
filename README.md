@@ -1,38 +1,40 @@
-STARLET Data Repository
-This repository contains the data generated and used by the research group of Prof. Seda Keskin for the STARLET (Atomistic Modeling of Advanced Porous Materials for Energy, Environment, and Biomedical Applications) project. STARLET focuses on advancing the understanding of nanoporous materials and their applications in gas adsorption, separation, and related fields using computational and machine learning approaches.
+# STARLET Data Repository :computer:
+This repository contains the data generated and used by the [research group](https://mysite.ku.edu.tr/skeskin/) of Prof. Seda Keskin in the Department of Chemical and Biological Engineering at Koç University for the ERC-funded STARLET (Atomistic Modeling of Advanced Porous Materials for Energy, Environment, and Biomedical Applications) project. STARLET focuses on advancing the understanding of nanoporous materials and their applications in gas adsorption, separation, and related fields using computational and machine learning approaches.
 
-Overview
+## Overview
 
 This repository hosts datasets used for:
 
-Training and validating machine learning models.
+- Molecular simulation data of nanoporous materials such as metal-organic frameworks (MOFs), covalent organic frameworks (COFs), and their composites with ionic liquids and polymers.
 
-Evaluating molecular simulations of nanoporous materials such as metal-organic frameworks (MOFs), covalent organic frameworks (COFs), and composites.
+- Investigating adsorption and separation processes for gases like CO<sub>2</sub>, CH<sub>4</sub>, H<sub>2</sub>, N<sub>2</sub>, O<sub>2</sub>, CO, SF<sub>6</sub>, and others.
 
-Investigating adsorption and separation processes for gases like CO2, CH4, H2, N2, O2, CO, SF6, and others.
+- Training and validating machine learning models.
 
-The data files are provided in formats compatible with common computational chemistry and data analysis tools.
+- The data files are provided in formats compatible with common computational chemistry and data analysis tools.
 
-Data Structure
+## Data Structure
 
 The repository is organized as follows:
 
-starlet_data/
-├── datasets/         # Contains raw and processed datasets
-│   ├── MOF_data.csv  # Data for metal-organic frameworks
-│   ├── COF_data.csv  # Data for covalent organic frameworks
-│   └── ...
-├── models/           # Machine learning model-related files
-├── scripts/          # Scripts for data preprocessing and analysis
-└── README.md         # This readme file
+- **datasets/**: Includes raw and processed datasets relevant to MOF and COF research.
+  - `MOF_data.csv`: Dataset for metal-organic frameworks.
+  - `COF_data.csv`: Dataset for covalent organic frameworks.
+  - Additional datasets can be added as needed.
+  
+- **models/**: Contains files related to training and testing machine learning models.
+  
+- **scripts/**: Includes Python or other language scripts for data preprocessing, feature extraction, and analysis.
 
-Citation
+- **README.md**: Documentation for understanding the repository structure and usage.
+
+
+## Citation
 
 If you use the data presented in this repository in your research, please cite any specific papers or datasets referenced in this repository.
 
-Contact
+## Contact
 
 For questions, comments, or collaborations, please contact the Keskin Group:
 
 Email: keskinresearch@gmail.com
-
