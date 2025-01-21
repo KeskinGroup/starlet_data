@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d6871f3e-c700-42e0-a2f3-21bfad4280f8)# STARLET Data Repository
+STARLET Data Repository
 This repository contains the data generated and used by the research group of Prof. Seda Keskin for the STARLET (Atomistic Modeling of Advanced Porous Materials for Energy, Environment, and Biomedical Applications) project. STARLET focuses on advancing the understanding of nanoporous materials and their applications in gas adsorption, separation, and related fields using computational and machine learning approaches.
 
 Overview
