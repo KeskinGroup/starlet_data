@@ -1,5 +1,5 @@
 # STARLET Project Data Repository :computer:
-This repository contains the data generated and used by the [research group](https://mysite.ku.edu.tr/skeskin/) of Prof. Seda Keskin in the Department of Chemical and Biological Engineering at Koç University for the ERC-funded STARLET (Atomistic Modeling of Advanced Porous Materials for Energy, Environment, and Biomedical Applications) project. STARLET focuses on advancing the understanding of nanoporous materials and their applications in gas adsorption, separation, and related fields using computational and machine learning approaches.
+This repository contains the data generated and used by the [research group](https://mysite.ku.edu.tr/skeskin/) of Prof. Seda Keskin in the Department of Chemical and Biological Engineering at Koç University for the ERC-funded STARLET (Atomistic Modeling of Advanced Porous Materials for Energy, Environment, and Biomedical Applications) project (grant agreement: 101124002). STARLET focuses on advancing the understanding of nanoporous materials and their applications in gas adsorption, separation, and related fields using computational and machine learning approaches.
 
 ## Overview
 
