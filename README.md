@@ -1,40 +1,12 @@
-# STARLET Project Data Repository :computer:
-This repository contains the data generated and used by the [research group](https://mysite.ku.edu.tr/skeskin/) of Prof. Seda Keskin in the Department of Chemical and Biological Engineering at Koç University for the ERC-funded STARLET (Atomistic Modeling of Advanced Porous Materials for Energy, Environment, and Biomedical Applications) project (grant agreement ID: 101124002). STARLET focuses on advancing the understanding of nanoporous materials and their applications in gas adsorption, separation, and related fields using computational and machine learning approaches.
+This folder includes gas-specific machine learning models that developed for CO₂, CH₄, N₂, and H₂ using molecular simulation data obtained for a large and diverse set of MOFs.
 
-## Overview
+Three distinct ML approaches were considered:
+(1) Developing ML models to predict gas uptakes and self-diffusivities of MOFs.
+(2) Developing ML models to directly predict MOF gas permeabilities.
+(3) Developing ML models to directly predict MOF/polymer MMMs gas permeabilities
 
-This repository hosts datasets used for:
+The TPOT framework was used to optimize the ML pipelines. The number of generations defines how long the genetic algorithm evolves the model pipelines, while the population size specifies how many candidate pipelines are evaluated in each generation. A 5-fold cross-validation scheme was employed during training to assess model performance. The verbosity level was set to 2 to enable detailed reporting of the optimization process, and a fixed random seed was used to ensure reproducibility. The dataset was split into 80% training and 20% test sets, with the training set used for model development and the test set reserved for performance evaluation.
 
-- Molecular simulation data of nanoporous materials such as metal-organic frameworks (MOFs), covalent organic frameworks (COFs), and their composites with ionic liquids and polymers.
+Using these three approaches, CO₂/CH₄, CO₂/N₂, and H₂/CO₂ membrane separations were systematically evaluated, enabling comparison of the predictive capabilities of each strategy and identification of promising MOF/polymer MMMs for each separation.
 
-- Investigating adsorption and separation processes for gases like CO<sub>2</sub>, CH<sub>4</sub>, H<sub>2</sub>, N<sub>2</sub>, O<sub>2</sub>, CO, SF<sub>6</sub>, and others.
-
-- Training and validating machine learning models.
-
-- The data files are provided in formats compatible with common computational chemistry and data analysis tools.
-
-## Data Structure
-
-The repository is organized as follows:
-
-- **datasets/**: Includes raw and processed datasets relevant to MOF and COF research.
-  - `MOF_data.csv`: Dataset for metal-organic frameworks.
-  - `COF_data.csv`: Dataset for covalent organic frameworks.
-  - Additional datasets can be added as needed.
-  
-- **models/**: Contains files related to training and testing machine learning models.
-  
-- **scripts/**: Includes Python or other language scripts for data preprocessing, feature extraction, and analysis.
-
-- **README.md**: Documentation for understanding the repository structure and usage.
-
-
-## Citation
-
-If you use the data and/or machine learning models presented in this repository in your research, please cite any specific papers or datasets referenced in this repository.
-
-## Contact
-
-For questions, comments, or collaborations, please contact the Keskin Group:
-
-Email: keskinresearch@gmail.com
+If you utilize the data from this repository, kindly cite it as: https://doi.org/10.1038/s43246-026-01207-9
