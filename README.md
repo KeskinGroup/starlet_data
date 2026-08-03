@@ -1,40 +1,7 @@
-# STARLET Project Data Repository :computer:
-This repository contains the data generated and used by the [research group](https://mysite.ku.edu.tr/skeskin/) of Prof. Seda Keskin in the Department of Chemical and Biological Engineering at Koç University for the ERC-funded STARLET (Atomistic Modeling of Advanced Porous Materials for Energy, Environment, and Biomedical Applications) project (grant agreement ID: 101124002). STARLET focuses on advancing the understanding of nanoporous materials and their applications in gas adsorption, separation, and related fields using computational and machine learning approaches.
+This is the folder of models developed for the ML study of MOFs for adsorption-based CO2/N2, and O2/N2 separations.
 
-## Overview
+.xlsx files contain the input features for MOFs used to build the ML models. The columns represent various structural, chemical and energetic features of MOFs, and the last column is the target data (e.g., CO2 adsorption at 0.1 bar).
 
-This repository hosts datasets used for:
+TPOT input parameters: generation parameter is set to 10, meaning the genetic algorithm will run for 10 generations, evolving the model pipeline over time. The population size of 30 indicates that 30 different model pipelines will be evaluated in each generation. Cross-validation (cv) is set to 5, meaning a 5-fold cross-validation will be used to assess the model performance during training. The verbosity level is set to 2, providing detailed logging of the training process. A random number seed of 42 ensures the reproducibility of results. The data is split into 80% training set and 20% test set, where 80% of the data is used for training the models and the remaining 20% for evaluating model performance.
 
-- Molecular simulation data of nanoporous materials such as metal-organic frameworks (MOFs), covalent organic frameworks (COFs), and their composites with ionic liquids and polymers.
-
-- Investigating adsorption and separation processes for gases like CO<sub>2</sub>, CH<sub>4</sub>, H<sub>2</sub>, N<sub>2</sub>, O<sub>2</sub>, CO, SF<sub>6</sub>, and others.
-
-- Training and validating machine learning models.
-
-- The data files are provided in formats compatible with common computational chemistry and data analysis tools.
-
-## Data Structure
-
-The repository is organized as follows:
-
-- **datasets/**: Includes raw and processed datasets relevant to MOF and COF research.
-  - `MOF_data.csv`: Dataset for metal-organic frameworks.
-  - `COF_data.csv`: Dataset for covalent organic frameworks.
-  - Additional datasets can be added as needed.
-  
-- **models/**: Contains files related to training and testing machine learning models.
-  
-- **scripts/**: Includes Python or other language scripts for data preprocessing, feature extraction, and analysis.
-
-- **README.md**: Documentation for understanding the repository structure and usage.
-
-
-## Citation
-
-If you use the data and/or machine learning models presented in this repository in your research, please cite any specific papers or datasets referenced in this repository.
-
-## Contact
-
-For questions, comments, or collaborations, please contact the Keskin Group:
-
-Email: keskinresearch@gmail.com
+.py files contain the best ML pipelines that are identified for predicting the gas adsorption data at various pressures.
