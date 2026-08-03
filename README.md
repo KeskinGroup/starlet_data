@@ -7,5 +7,3 @@ This is the folder of models developed for the ML study of MOFs for membrane-bas
 •	.py files contain the best ML pipelines that are identified for predicting the gas diffusivity data at 1 bar.
 
 •	The publicly available web interface is available on https://mofgasdiffusionpredictor.streamlit.app/ for predicting gas diffusivities of MOFs to facilitate material selection and enable broader applicability in materials discovery.
-
-If you utilize the data from this repository, kindly cite it as follows: https://doi.org/10.1021/acsmaterialsau.5c00111
